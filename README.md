@@ -13,12 +13,12 @@ file from Github.
 2. Visit https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html and download any
 of the sample `.csv` files to you computer. Note the location of your download.
 3. Find the `r-env.Rproj` file in this repo and open it in RStudio
-4. In the 'Files' section of RStudio, find the 'More' button and select the
-"Show hidden files" option. You will now see the `.env.example` file.
+4. In the 'Files' pane of RStudio, find the 'More' button with the gear icon
+and select the"Show hidden files" option. You will now see the `.env.example` file.
 5. Open the `.env.example` file in RStudio, then select `File > Save As...`
 from the file menu. Save the file with the new name `.env` in the same directory
 as `.env.example`
-6. Open the new `.env` file and make the follow changes:
+6. Open the new `.env` file if it's not already open and make the follow changes:
    1. Edit the line that says `csv_data_path=""` to have the full path to the 
 `.csv` you downloaded in step 2.
 Example: `csv_data_path="C:/Users/mmagana/Downloads/hurricanes.csv"`
@@ -28,7 +28,7 @@ Example: `csv_data_path="C:/Users/mmagana/Downloads/hurricanes.csv"`
 for the file. Select the option to install the missing packages.
   2. If you do not see this prompt for some reason, alternatively run the 
   `install.R` file to install all necessary packages.
-8. Use `Ctrl + A` on your keyboard to select the entire content of the file,
+8. Use `Ctrl + A` on your keyboard to select the entire contents of the `myscript.R` file,
 then use the "Run" button or `Ctrl + Enter` to run the selected code.
 9. You will see the output of the `head()` function from the `.csv` you downloaded.
 
