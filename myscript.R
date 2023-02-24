@@ -25,4 +25,4 @@ csv_data_path <- Sys.getenv("csv_data_path")
 csv_data <- read.csv(csv_data_path)
 
 # display the CSV data
-str(csv_data)
+head(csv_data)
