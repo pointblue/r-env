@@ -38,11 +38,9 @@ Why bother with this example? You already know how to edit the file path in
 your source code, so why do all this?  
 
 Notice for this exercise that you were able to display the contents of a `.csv`
-file without modifying any source code. With the `myscript.R` file open and 
-selected, go to `Tools > Version Control > Diff "myscript.R"`. The diff tool 
-shows that no changes have been made to the code. Also notice that I did not
+file without modifying any source code. Also notice that I did not
 know which `.csv` file you would download, which folder you would download it 
-to, or which computer you would be using (I made this example on a Linux machine).
+to, or which computer you would be using (I made this example on a Linux machine). If you cloned this repo using `git clone`, with the `myscript.R` file open and selected go to `Tools > Version Control > Diff "myscript.R"`. The diff tool shows that no changes have been made to the code. 
 
 This means that the code can be run on any machine (computer or server) without
 modifications, so it's much easier to collaborate on complicated projects.  
